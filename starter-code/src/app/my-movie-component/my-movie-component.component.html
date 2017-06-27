@@ -1,0 +1,29 @@
+
+
+<div class="moviedeets row">
+
+  <div class="image col-md-5">
+
+    <img src="{{ theMovie.poster }}">
+  </div>
+
+  <div class="col-md-7">
+      <h2> Room {{movieId}} - <span>{{ theMovie.title }}</span> </h2>
+    <ul class="poop" style="padding: 0; margin-top: 20px;">
+      <li><strong>Genres:</strong> <ul><li *ngFor="let genre of theMovie.genres">{{ genre }}</li></ul>
+      </li>
+      <li><strong>Year:</strong> <ul><li>{{ theMovie.year }}</li></ul>
+      </li>
+      <li><strong>Director:</strong> <ul><li>{{ theMovie.director }}</li></ul>
+      </li>
+      <li><strong>Actors:</strong> <ul><li *ngFor="let actor of theMovie.actors">{{ actor }}</li></ul>
+      </li>
+      <li><strong>Schedule:</strong> <ul><li *ngFor="let genre of theMovie.genres">{{ genre }}</li></ul>
+      </li>
+      <li><strong>Synopsis:</strong> <p>{{ theMovie.synopsis }}</p>
+      </li>
+    </ul>
+    <a class="btn btn-primary" [routerLink] = "['/home']">Go Back</a>
+  </div>
+
+</div>

@@ -1,0 +1,25 @@
+img {
+  width: 75%;
+  height: 500px;
+}
+
+.image {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.moviedeets {
+  margin-top: 50px;
+}
+
+h2 {
+  margin: 0;
+}
+
+
+.poop > li {
+  padding: 8px;
+}

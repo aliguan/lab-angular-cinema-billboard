@@ -1,0 +1,22 @@
+li {
+  list-style-type: none;
+  width: calc(100% / 5);
+  float: left;
+  text-align: center;
+}
+
+img {
+  width: 75%;
+}
+
+ul {
+  font-family: 'Helvetica', sans-serif;
+  margin:0;
+  padding: 0;
+  font-weight: 100;
+}
+
+a {
+  color: #2b6494;
+  text-decoration: none;
+}
